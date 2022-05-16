@@ -21,7 +21,15 @@ cd dev_ws
 ros2 run brt_check alive_counter
 ```
 
-d
+DDS 설정
+
+```bash
+export CYCLONEDDS_URI="/home/krri/Documents/cyclonedds.xml"
+
+cyclonedds.xml -> 해당 pc의 IV4 주소 넣어주기
+```
+
+
 
 #### 1번 PC 실행 순서
 
@@ -97,8 +105,8 @@ Terminal (3) - status_alert
 ```
 cd dev_ws
 . install/setup.bash
-cd /home/krri/dev_ws/src/bit_unpack/bit_unpack
-python3 unpack.py
+cd /home/krri/dev_ws/src/status_alert/status_alert
+python3 alert.py
 ```
 
 
