@@ -1,0 +1,4 @@
+ros2 run image_transport republish compressed --ros-args --remap in/compressed:=usb_cam_2/image_comp --ros-args --remap out:=image_out2
+
+
+ros2 run image_transport republish compressed --ros-args --remap in/compressed:=usb_cam_1/image_comp --ros-args --remap out:=image_out1
