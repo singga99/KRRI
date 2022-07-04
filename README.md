@@ -139,6 +139,8 @@ def generate_launch_description():
     ])
 ```
 
+* package => 해당 패키지 이름
+* executable => setup.py의 pub&sub 노드 이름
 * launch_test.py 실행
 
 ```
