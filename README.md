@@ -139,15 +139,15 @@ def generate_launch_description():
 	return launch.LaunchDescription([
 		launch_ros.actions.Node(
 			package='turtlesim',
-            namespace='turtlesim1',
-            executable='turtlesim_node',
-		),
+            		namespace='turtlesim1',
+            		executable='turtlesim_node',
+			),
 		
 		launch_ros.actions.Node(
 			package='turtlesim',
-            namespace='turtlesim2',
-            executable='turtlesim_node',
-		),
+            		namespace='turtlesim2',
+            		executable='turtlesim_node',
+			),
 		
 		# launch
 		launch.actions.IncludeLaunchDescription(
