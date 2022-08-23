@@ -26,6 +26,24 @@ $ source ~/.bashrc
 
 
 
+##### 단축키
+
+* Ctrl + Alt + T : 새 터미널창 열기
+* Ctrl + Shift + E : 터미널창 수직 분할
+* Ctrl + Shift + O : 터미널창 수평 분할
+* Ctrl + Shift + W : 터미널창 분할 제거
+* Ctrl + Alt + W : 창 이름 변경
+* Ctrl + C : 터미널내의 실행 파일 종료
+* Ctrl + Z : 터미널내의 실행 파일 강제 종료
+* cd : 기본 경로 이동
+* cd .. : 이전 폴더 이동
+* cd < 원하는 폴더 이름 > : 해당 폴더로 이동
+* mkdir < 폴더 이름 > : 원하는 폴더 생성
+* touch < 파일 이름 > : 원하는 이름으로 파일 생성
+* rm < 파일 이름 > : 해당 파일 삭제
+
+
+
 ### 2. ROS
 
 ##### New Package 만들기
