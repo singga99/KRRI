@@ -41,6 +41,8 @@ $ source ~/.bashrc
 * mkdir < 폴더 이름 > : 원하는 폴더 생성
 * touch < 파일 이름 > : 원하는 이름으로 파일 생성
 * rm < 파일 이름 > : 해당 파일 삭제
+* Ctrl + Shift + Print Screen : 화면 캡쳐
+* Ctrl + Shift + Alt + R : 화면 녹화
 
 
 
